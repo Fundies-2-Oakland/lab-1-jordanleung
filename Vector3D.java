@@ -36,6 +36,11 @@ public class Vector3D {
     public Vector3D multiply(int scalar){
         return new Vector3D(this.x * scalar, this.y * scalar, this.z * scalar);
     }
+    public static void main(String[] args) {
+        Vector3D vec = new Vector3D(1.034,2.0,3.0);
+        System.out.println(vec);
+        System.out.println(vec.normalize());
+    }
 
 }
 
